@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #775738;
+    color: #f4f4f4;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #f4f4f4;
+}
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 34px;
+}
+.logo{
+    float: left;
+    margin-bottom: 25px;
+}
+/* hero banner */
+.hero-banner{
+    min-height: 600px;
+    background-image: url('img/back-furniture.png');
+    text-align: left;
+    color: #f4f4f4;
+}
+.hero-banner h1{
+    position: relative;
+    top: 90px;
+    margin-top: 40px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.hero-banner p{
+    font-size: 15px;
+    font-family: helvetica;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    line-height: 1.5;
+}
+header .logo{
+    font-size: large;
+}
+.boxes{
+    margin-top: 30px;
+}
+.boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.box h3{
+    font-size: 22px;
+    line-height: 1.5;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #f4f4f4;
+    background-color: #775738;
+    text-align: center;
+    font-size: 15px;
+}
